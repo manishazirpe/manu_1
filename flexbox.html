@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .profiles-contenier{
+            display: flex;
+            flex-direction: row;
+           justify-content:space-evenly ;
+           background-color: #ff80d5;
+            height: 250px;
+align-items: center;
+flex-wrap: wrap;
+
+        }
+.profile-card{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.profile-name{
+    text-align: center;
+}
+    </style>
+    </head>
+    <body>
+        <div class="profiles-contenier">
+            <div class="profile-card">
+                <img src="https://th.bing.com/th/id/OIP.ZrwGfiNblwR0JIyHnn5mDQAAAA?rs=1&pid=ImgDetMain" class="profile-image" />
+                <h3 class="profile-name">TANAJI</h3></div>
+
+                <div class="profile-card">
+                    <img src="https://www.bollywoodcrazies.com/wp-content/uploads/2017/12/ek-tha-tiger-collection-624x370.jpg" class="profile-image" />
+                    <h3 class="profile-name">EK-THA-TIGER</h3></div>
+
+                    <div class="profile-card">
+                        <img src="https://i.pinimg.com/736x/43/f9/5f/43f95fb5a52916f593bee61a0deffdaa.jpg" class="profile-image" />
+                        <h3 class="profile-name">ACTION</h3></div>
+
+                        <div class="profile-card">
+                            <img src="https://th.bing.com/th/id/OIP.Oi9omuBwc-7ee6hQUjMY8wHaFR?w=1350&h=960&rs=1&pid=ImgDetMain" class="profile-image" />
+                            <h3 class="profile-name">AVATAR</h3></div>
+        </div>
+    </body>
